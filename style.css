@@ -1,0 +1,112 @@
+.markDown {
+
+    /* Define default fonts and spacing */
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    color: #3d3d3d;
+
+    /* define basic block components */
+    img {
+        max-width: calc(100vw - 220px);
+    }
+
+    ul, ol {
+        padding-inline-start: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #3d3d3d;
+    }
+
+    h1, h2, h3, h4 {
+        font-weight: 100;
+        text-align: left;
+        word-break: break-word;
+        hyphens: auto;
+        border:0;
+    }
+
+    h1, h2 {
+        font-size: 2.8rem;
+        margin: 2.4rem 0;
+        line-height: 4.2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 1.8rem 0;
+        line-height: 3rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height:  1.875rem;
+        letter-spacing: 1px;
+    }
+
+    h5 {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    code {
+        padding:2px;
+        background-color:#eee;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    code span {
+        display: inline-block;
+        width:24px;
+    }
+
+    blockquote {
+        border-left: 2px solid #3fab49;
+        margin: 0 0 2rem;
+        padding: 0 16px;
+        clear:both;
+    }
+
+    a.reference, a.footnote {
+        color : #0c497a;
+        text-decoration: none;
+    }
+
+    table {
+        border : 1px solid rgba(0, 0, 0, 0.1);
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin: 14px 0;
+
+        tr.header td {
+            background-color: #0c497a;
+            color:white
+        }
+
+        td {
+            padding: 2px 6px;
+            border : 1px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    img {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    strong { font-weight: bold; }
+
+    em { font-style: italic; }
+
+    div.footnote {
+        font-size: 12px;
+    }
+}
