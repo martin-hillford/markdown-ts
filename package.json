@@ -1,0 +1,57 @@
+{
+  "name": "@martin-hillford/markdown-ts",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": {
+    "name": "Martin Hillford",
+    "email": "171671237+martin-hillford@users.noreply.github.com"
+  },
+  "files" : [
+    "readme.md",
+    "plugins.md",
+    "style.css",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin-hillford/markdown-ts.git"
+  },
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "description": "A Markdown to html parser written in pure typescript",
+  "module": "./lib/index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitest/coverage-istanbul": "^3.1.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.1.1"
+  }
+}
